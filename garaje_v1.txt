@@ -1,0 +1,91 @@
+//        ita=angajati.begin();
+//        for(auto itg=garaje.begin(); itg!=garaje.end() && ita!=angajati.end() ; itg++, ita++) //iterator garaje
+//        {
+//
+//            ///Introducem masinile in cozile fiecarui garaj:
+//            while(waiting_q.size()>0 && next=='y')
+//            {
+//                cout<<"Masina '"<<(waiting_q.front())->getID()<<" "<<(waiting_q.front())->getType()<<"' doriti sa intrati la garajul angajatului cu ID "<<(*ita)->getID()<<"("<<(*ita)->getNume()<<" "<<(*ita)->getPrenume()<<")"<<" ?(y/n)\n";
+//                cin>>next;
+//                tip_masina=(waiting_q.front())->getType();
+//                if(next=='y'){
+//                if(tip_masina=="Standard")
+//                {
+//                    if(itg->checkRoom4Standard())
+//                    {
+//                        itg->AddCar(waiting_q.front());
+//                        waiting_q.pop();
+//
+//                    }
+//                    else
+//                    {
+//                        // ita=angajati.begin();
+//                        cout<<"Exista deja 3 masini Standard la coada. Doriti sa plecati?(daca nu, veti fi alocat la urmatorul angajat liber)(y/n)\n";
+//                        cin>>urm;
+//                        if(urm=='y')
+//                        {
+//                            waiting_q.pop();
+//                            break;
+//
+//                        }
+//                        else{
+//                                //ita=angajati.begin();
+//                            break;
+//                        }
+//                    }
+//                }
+//                else if(tip_masina=="Autobuz")
+//                {
+//                    if(itg->checkRoom4Bus())
+//                    {
+//                        itg->AddCar(waiting_q.front());
+//                        waiting_q.pop();
+//                      //  ita=angajati.begin();
+//                    }
+//                    else
+//                    {
+//
+//                        cout<<"Exista deja 1 masina Autobuz la coada. Doriti sa plecati?(daca nu, veti fi alocat la urmatorul angajat liber)(y/n)\n";
+//                        cin>>urm;
+//                        if(urm=='y')
+//                        {
+//                            waiting_q.pop();
+//                            break;
+//
+//                        }
+//                        else{
+//                                //ita=angajati.begin();
+//                            break;
+//                        }
+//                    }
+//                }
+//                else if(tip_masina=="Camion")
+//                {
+//                    if(itg->checkRoom4Camion())
+//                    {
+//                        itg->AddCar(waiting_q.front());
+//                        waiting_q.pop();
+//                        // ita=angajati.begin();
+//                    }
+//                    else
+//                    {
+//                         //ita=angajati.begin();
+//                        cout<<"Exista deja 1 masina Camion la coada. Doriti sa plecati?(daca nu, veti fi alocat la urmatorul angajat liber)(y/n)\n";
+//                        cin>>urm;
+//                        if(urm=='y')
+//                        {
+//                            waiting_q.pop();
+//                            break;
+//                        }
+//                        else{
+//                                //ita=angajati.begin();
+//                            break;
+//                        }
+//                    }
+//                }
+//                //urm=
+//            }
+//                else break;
+//            }
+//        next='y';
+//        }
